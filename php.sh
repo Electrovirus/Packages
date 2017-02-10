@@ -14,9 +14,8 @@ if [ "$1" = "php7" ]; then
 if [ "$1" = "php5" ]; then
   php5
  fi 
- if
    echo -e "\033[38;5;208m"
-   echo -e "     > Developed by [Electrovirus]      "
+   echo -e "     > Developed by [Makerman]      "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
 fi
