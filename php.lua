@@ -11,7 +11,7 @@ if [ "$1" = "php7" ]; then
   php7
  fi
  
-if [ "$1" = "php5" ]; then
+if [ "$2" = "php5" ]; then
   php5
  fi 
  if
