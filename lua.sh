@@ -1,5 +1,5 @@
 
-config() {
+lua5.2() {
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes
  wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz$ cd luarocks-2.2.2
@@ -13,7 +13,7 @@ sudo luarocks install serpent
 sudo luarocks install Lua-cURL
 }
 
-if [ "$1" = "config" ]; then
+if [ "$1" = "lua5.2" ]; then
   config
  fi
 
