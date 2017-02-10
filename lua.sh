@@ -14,7 +14,7 @@ sudo luarocks install Lua-cURL
 }
 
 if [ "$1" = "lua5.2" ]; then
-  config
+  lua5.2
  fi
 
    echo -e "\033[38;5;208m"
