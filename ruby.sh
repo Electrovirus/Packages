@@ -1,11 +1,11 @@
-config() {
+ruby2.4() {
 gem install telegram-bot-ruby
 gem install colorize
 gem install json
 }
 
-if [ "$1" = "config" ]; then
-  config
+if [ "$1" = "ruby2.4" ]; then
+  ruby2.4
  fi
 
    echo -e "\033[38;5;208m"
