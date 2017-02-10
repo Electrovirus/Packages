@@ -1,5 +1,5 @@
 
-config() {
+python2.7() {
 sudo apt-get install python-setuptools
 sudo apt-get install python-pip
 sudo apt-get install python-redis
@@ -10,8 +10,8 @@ sudo apt-get install python2.7
 sudo pip install pytelegrambotapi py==1.4.29 pytest==2.7.2 requests==2.7.0 six==1.9.0 wheel==0.24.0
 }
 
-if [ "$1" = "config" ]; then
-  config
+if [ "$1" = "python2.7" ]; then
+  python2.7
  fi
 
    echo -e "\033[38;5;208m"
