@@ -18,7 +18,13 @@ if [ "$1" = "lua5.2" ]; then
  fi
 
    echo -e "\033[38;5;208m"
-   echo -e "     > Developed by [Electrovirus]      "
+   echo -e "     > Developed by [Electrovirus]  "
+   sleep 1
+   echo -e "  _______     __  _____           "         
+   echo -e " | ____\ \   / / |_   _|__  __ _ _ __ ___  "
+   echo -e " |  _|  \ \ / /    | |/ _ \/ _` | '_ ` _ \ "
+   echo -e " | |___  \ V /     | |  __/ (_| | | | | | |"
+   echo -e " |_____|  \_/      |_|\___|\__,_|_| |_| |_|"
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
 fi
