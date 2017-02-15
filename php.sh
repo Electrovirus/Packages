@@ -10,7 +10,6 @@ sudo apt-get install php5.6 php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xm
 if [ "$1" = "php7" ]; then
   php7
  fi
-  else
  
 if [ "$1" = "php5" ]; then
   php5
