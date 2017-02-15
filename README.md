@@ -29,3 +29,8 @@ _./python.sh python2.7_
 *or*
 
 _./php.sh php[5|7]_
+
+#DEVELOPERS
+@Electrovirus
+
+@Makerman
